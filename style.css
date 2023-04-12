@@ -1,0 +1,127 @@
+body {
+    cursor: default;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 90px;
+}
+#back{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%
+}
+header, footer {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 0px 20px
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index:1;
+    width: 97.5%;
+    margin-top: -90px;
+    margin-left: -8px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    z-index:2;
+}
+#butnav{
+    color: white;
+    background-color: #ff0000;
+    height:60px;
+    width: 60px;
+    cursor: pointer
+}
+#butnavoff{
+    color: white;
+    background-color: #ff0000;
+    height:60px;
+    width: 60px;
+    cursor: not-allowed
+}
+header h1 a:hover,#nav:hover,#butnav:hover,#now:hover{
+    background-color: #ffff00e7;
+    color: black
+}
+#navoff{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: not-allowed
+}
+#nav{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: pointer
+}
+#now{
+    color: white;
+    background-color: #00ff00;
+    height:81px;
+    width: 81px;
+    cursor:pointer
+}
+#mods{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: pointer
+}
+#modsoff{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: not-allowed
+}
+#but{
+    color: orangered;
+    background-color: orangered;
+    padding: 40px 12px;
+    border-radius: 10px;
+    list-style: none;
+    cursor: default
+}
+#light{
+    background-color: white;
+    color: black;
+    height:81px;
+    width: 81px;
+    cursor: pointer;
+    border-color: cyan;
+    border-radius: 10px;
+}
+#dark{
+    background-color: black;
+    color: white;
+    height:81px;
+    width: 81px;
+    cursor: pointer;
+    border-color: cyan;
+    border-radius: 10px;
+}
+#butfr{
+    color: rgb(0, 0, 0);
+    height:81px;
+    width: 81px;
+    cursor: pointer;
+    border-color: orangered;
+    border-radius: 10px;
+}
