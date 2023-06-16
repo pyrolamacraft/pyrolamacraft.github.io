@@ -145,38 +145,12 @@
       "src": "http://127.0.0.1:5500/image/ico/1024.png",
       "sizes": "1024x1024",
       "type": "image/png"  
-    },
-    {
-      "src": "http://127.0.0.1:5500/image/ico/SplashScreen.scale-100.png",
-      "sizes":"any",
-      "type": "image/png"   
-    },
-    {
-      "src": "http://127.0.0.1:5500/image/ico/SplashScreen.scale-125.png",
-      "sizes":"any",
-      "type": "image/png"   
-    },
-    {
-      "src": "http://127.0.0.1:5500/image/ico/SplashScreen.scale-150.png",
-      "sizes":"any",
-      "type": "image/png"   
-    },
-    {
-      "src": "http://127.0.0.1:5500/image/ico/SplashScreen.scale-200.png",
-      "sizes":"any",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "http://127.0.0.1:5500/image/ico/SplashScreen.scale-400.png",
-      "sizes":"any",
-      "type": "image/png"   
     }
   ],
   "background_color": "#000000",
   "theme_color": "#000000",
   "id": "/",
-  "start_url": "http://127.0.0.1:5500/fr",
+  "start_url": "https://pyrolamacraft.github.io/fr",
   "display": "fullscreen",
   "orientation": "any"
 }
