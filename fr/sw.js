@@ -32,7 +32,7 @@ self.addEventListener('fetch', (event) =>{
                 return await fetch(event.request);
             } catch (e) {
                 const cache = await caches.open(vertion);
-                return await cache.match('off/offline/html');
+                return await cache.match('https://pyrolamacraft.github.io/fr/off/offline.html');
             };
         })(
 
