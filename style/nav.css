@@ -1,0 +1,55 @@
+.but{
+    color: white;
+    background-color: #ff0000;
+    height:60px;
+    width: 60px;
+    cursor: pointer
+}
+.butnow{
+    color: black;
+    background-color: #00ff00;
+    height:60px;
+    width: 60px;
+    cursor:pointer
+}
+.top:hover,.but:hover,.now:hover,.on:hover,.butnow:hover{
+    background-color: yellow;
+    color: black
+}
+.topoff{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: not-allowed
+}
+.top{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: pointer
+}
+.now{
+    color: black;
+    background-color: #00ff00;
+    height:81px;
+    width: 81px;
+    cursor:pointer
+}
+.on{
+    color: white;
+    background-color: #ffa600;
+    height:81px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer
+}
+.off{
+    color: white;
+    background-color: #ffa600;
+    height:81px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: not-allowed
+}
