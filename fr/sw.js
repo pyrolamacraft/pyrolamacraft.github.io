@@ -5,7 +5,7 @@ self.addEventListener("install", (event) => {
     event.waitUntil((async () => {
     caches.open(vertion)
     .then(cache => {
-        cache.addAll(["https://pyrolamacraft.github.io/fr/off/offline.html", "https://pyrolamacraft.github.io/fr/off/offline.css","https://pyrolamacraft.github.io/fr/off/back.png"]); // it stores two resources
+        cache.addAll(["off/offline.html", "off/offline.css","off/back.png"]); // it stores two resources
     });
     }));
     console.log(vertion, "est en cour d'instalation");
@@ -32,7 +32,7 @@ self.addEventListener('fetch', (event) =>{
                 return await fetch(event.request);
             } catch (e) {
                 const cache = await caches.open(vertion);
-                return await cache.match('https://pyrolamacraft.github.io/fr/off/offline.html');
+                return await cache.match('off/offline/html');
             };
         })(
 
