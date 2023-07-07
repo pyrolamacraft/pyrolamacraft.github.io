@@ -1,0 +1,79 @@
+@keyframes sut {
+    50%{
+        color:  yellow;
+    }
+}
+@keyframes sat {
+    25%{
+        color: yellow;
+    }
+    50%{
+        color:aqua;
+    }
+    75%{
+        color: yellow;
+    }
+}
+@keyframes sta {
+    25%{
+        color: yellow;
+    }
+    50%{
+        color:white;
+    }
+    75%{
+        color: yellow;
+    }
+}
+@keyframes maj {
+    0% {
+        color: white;
+        background-color: red;
+    }
+    25% {
+        color: white;
+        background-color: #ffa600;
+    }
+    50% {
+        color: black;
+        background-color: aqua;
+    }
+    75% {
+        color: black;
+        background-color: yellow;
+    }
+}
+@keyframes sur {
+    50%{
+        color: black;
+        background-color: yellow;
+    }
+}
+@keyframes sua {
+    25%{
+        color: black;
+        background-color: yellow;
+    }
+    50%{
+        color: black;
+        background-color: aqua;
+    }
+    75%{
+        color: black;
+        background-color: yellow;
+    }
+}
+@keyframes saa {
+    25%{
+        color: black;
+        background-color: yellow;
+    }
+    50%{
+        color: white;
+        background-color: red;
+    }
+    75%{
+        color: black;
+        background-color: yellow;
+    }
+}

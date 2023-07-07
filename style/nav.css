@@ -1,0 +1,106 @@
+.but{
+    color: white;
+    background-color: #ff0000;
+    height:60px;
+    width: 60px;
+    cursor: pointer
+}
+.butnow{
+    color: black;
+    background-color: aqua;
+    height:60px;
+    width: 60px;
+    cursor:pointer
+}
+.top:hover,.but:hover,.now:hover,.butnow:hover,.on:hover,.mn:hover,.wn:hover{
+    animation: sur 3s linear infinite;
+}
+.topoff{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: not-allowed
+}
+
+.top{
+    color: white;
+    background-color: #ff0000;
+    height:81px;
+    width: 81px;
+    cursor: pointer
+}
+.now{
+    color: black;
+    background-color: aqua;
+    height:81px;
+    width: 81px;
+    cursor:pointer
+}
+.on{
+    color: white;
+    background-color: #ffa600;
+    height:81px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer
+}
+.off{
+    color: white;
+    background-color: #ffa600;
+    height:81px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: not-allowed
+}
+.mff{
+    color: white;
+    background-color: #ffa600;
+    width: 24%;
+    height:81px;
+    cursor:not-allowed;
+}
+.mn{
+    color: white;
+    background-color: #ffa600;
+    cursor: pointer;
+    width: 24%;
+    height:81px;
+}
+.wn{
+    color: white;
+    background-color: #ffa600;
+    cursor: pointer;
+    width: 24%;
+    height:81px;
+    margin-left: 2%;
+}
+.wf{
+    color: white;
+    background-color: #ffa600;
+    cursor: not-allowed;
+    width: 24%;
+    height:81px;
+    margin-left: 2%;
+}
+.updoff{
+    width: 100%;
+    height: 81px;
+    position: fixed;
+    margin-top: 100%;
+}
+.updon{
+    width: 100%;
+    height:81px;
+    margin-bottom: 10px;
+    background-color: #ff0000;
+    color: white;
+    animation: maj 5s linear infinite;
+    
+}
+.top:active,.but:active,.on:active,.mn:active,.wn:active{
+    animation: sua 2s linear infinite;
+}
+.now:active,.butnow:active{
+    animation: saa 2s linear infinite;
+}
